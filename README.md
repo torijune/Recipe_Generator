@@ -13,7 +13,7 @@
 │   ├── lunch_recipes.json
 │   ├── dinner_recipes.json
 │   └── merged_recipes.json    
-├── Data    
+├── Fine Tuning Data    
 │   └── demo_prompts.json   
 ├── Model                   
 ├── Notebook                
