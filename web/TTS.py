@@ -47,8 +47,11 @@ class MultilingualTTS:
         speed, language = self.get_user_input()
         self.generate_tts(speed, language)
 
-if __name__ == "__main__":
-    # text_file_path는 Generator를 통해서 생성할 예정
+def main():
+    # streamlit activate code 필요
     text_file_path = r'C:\Users\dnjsw\Desktop\Projects\FOM\FOM_Conference_Project\NLP\Recipe_Generator\Model\Generator\input_text.txt'
     tts_system = MultilingualTTS(text_file_path)
     tts_system.run()
+
+if __name__ == "__main__":
+    main()
