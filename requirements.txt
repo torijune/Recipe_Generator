@@ -5,3 +5,6 @@ accelerate
 torch
 pandas
 datasets
+streamlit
+langchain
+faiss-cpu
