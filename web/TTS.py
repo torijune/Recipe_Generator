@@ -1,14 +1,5 @@
-from melo.api import TTS
-'''
-Dependency를 위한 install list
+from MeloTTS.melo.api import TTS
 
-conda create -n melotts python=3.10
-conda activate melotts
-git clone https://github.com/myshell-ai/MeloTTS.git
-cd MeloTTS
-pip3 install -e .
-python3 -m unidic download
-'''
 class MultilingualTTS:
     def __init__(self, text_file_path, device='auto'):
         self.text_file_path = text_file_path
@@ -49,7 +40,8 @@ class MultilingualTTS:
 
 def main():
     # streamlit activate code 필요
-    text_file_path = r'C:\Users\dnjsw\Desktop\Projects\FOM\FOM_Conference_Project\NLP\Recipe_Generator\Model\Generator\input_text.txt'
+    your_file_path = r'C:\Users\dnjsw\Desktop\Projects\FOM\FOM_Conference_Project\NLP\Recipe_Generator\web\input_text.txt'
+    text_file_path = your_file_path
     tts_system = MultilingualTTS(text_file_path)
     tts_system.run()
 
