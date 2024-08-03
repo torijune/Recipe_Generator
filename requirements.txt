@@ -1,10 +1,5 @@
-subprocess
-bitsandbytes
-transformers
-accelerate
-torch
-pandas
-datasets
 streamlit
+torch
+transformers
 langchain
 faiss-cpu
