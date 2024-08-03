@@ -6,7 +6,8 @@ import os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(current_dir)
 
-st.set_page_config(page_title="FOM RGRG - Recipe Generator with RAG, page_icon="🍜")
+st.set_page_config(page_title="FOM RGRG - Recipe Generator with RAG, page_icon="🍕")
+
 
 st.title("레시피 알쥐?알쥐? - RGRG")
 
