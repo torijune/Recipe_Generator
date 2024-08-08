@@ -1,2 +1,6 @@
 streamlit
 gtts
+langchain
+langchain_community
+langchain_core
+googletrans
