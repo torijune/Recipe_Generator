@@ -1,7 +1,7 @@
-# Recipe_Generator Using LLM fine tuning with QLoRA And Recipe to speech with TTS   
+# Recipe_Generator by RAG with TTS   
 
 ## 프로젝트 개요   
-이 프로젝트는 자연어 처리(NLP) 모델의 양자화, 파인 튜닝 및 텍스트 생성을 다룹니다. 프로젝트는 데이터 크롤링, 데이터 전처리, 모델 양자화, 모델 파인 튜닝, 텍스트 생성 그리고 텍스트 음성 변환의 전체 워크플로우를 포함합니다.   
+본 프로젝트는 LLM을 활용하여 RAG를 구현하여 레시피 생성 기능, GoogleAPI를 활용하여 Translate, TTS를 구현하여 웹사이트 베포를 하는 프로젝트입니다.
 
 ## 프로젝트 구조
 ```
