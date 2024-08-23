@@ -7,31 +7,53 @@
 ```
 .
 ├── Crawling                
-│   ├── recipe_crawling.ipynb     
-│   ├── readme.md
+│   ├── recipe_crawling.py     
 │   ├── breakfast.txt
 │   ├── lunch.txt    
 │   └── dinner.txt    
-├── Data                    
-│   ├── breakfast_recipes.json
-│   ├── lunch_recipes.json
-│   ├── dinner_recipes.json
-│   └── merged_recipes.json    
+├── Data
+│   ├── one_recipe
+│   │   ├── breakfast_recipes.json
+│   │   ├── lunch_recipes.json
+│   │   ├── dinner_recipes.json
+│   │   └── merged_recipes.json  
+│   └── ten_recipe
+│       ├── pdf_convert.ipynb        
+│       ├── flatten_breakfast_recipes.json
+│       ├── flatten_lunch_recipes.json
+│       ├── flatten_dinner_recipes.json
+│       ├── new_breakfast_recipes.json
+│       ├── new_lunch_recipes.json
+│       ├── new_dinner_recipes.json
+│       └── new_merged_recipes.json  
 ├── Fine_Tuning_Data    
-│   └── demo_prompts.json   
-├── Model                   
-├── Notebook                
-│   ├── 
+│   ├── one_recipe
+│   │    ├──demo_prompts.json 
+│   │    └── instruction_data.json
+│   └── ten_recipe
+│       └── demo_prompts_2.json
 ├── PDF                     
 │   └── 
 ├── README.md               
-├── Setup                   
-│   ├── __init__.py
-│   ├── finetuning.py       
-│   ├── generate_text.py    
-│   ├── merge_recipes.ipynb
-│   ├── create_prompt.ipynb
-│   ├── LoRA.py     
-│   └── quantization.py    
-└── requirements.txt       
+├── Setup
+│   ├── one_recipe
+│   │   ├── create_prompt.ipynb
+│   │   ├── merge_recipes.ipynb
+│   │   ├── recipe_crawling.ipynb
+│   └── src           
+│       ├── finetuning.py       
+│       ├── reciep_merger.py    
+│       ├── prompt_gen.py
+│       ├── LoRA.py     
+│       └── quantization.py
+└── Web
+    ├── __pycache__
+    ├── recipe_book.pdf
+    ├── app.py
+    ├── audio.py
+    ├── homepage.py
+    ├── recipe.py
+    ├── translate.py
+    └── requirements.txt   
+    
 ```
