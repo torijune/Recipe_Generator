@@ -5,16 +5,16 @@
 
 # Streamlit을 활용하여 웹사이트 프로로토타입 생성
 - RGRG 웹사이트 메인 홈페이지 화면 - 사용자의 특징을 선택하여 가상의 페르소나 생성
-> ![홈페이지 화면](Setup/홈페이지.png)
+![홈페이지 화면](Setup/홈페이지.png)
 
 - RGRG 웹사이트 텍스트(레시피) 생성 화면 - RAG에서 사용할 문서를 왼쪽 사이드에서 업로드 후 "요리의 레시피를 알려주세요."라는 프롬포트 작성 후 "검색" 버튼 클릭
-> ![텍스트 생성 화면](Setup/레시피생성.png)
+![텍스트 생성 화면](Setup/레시피생성.png)
 
 - RGRG 웹사이트 생성된 텍스트 번역 화면 - 앞서 생성된 텍스트를 원하는 언어로 번역, 원하는 언어 선택 후 "번역" 버튼 클릭
-> ![번역 화면]([Setup/번역.png](https://github.com/torijune/Recipe_Generator/blob/main/Setup/%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%A8.png))
+![번역 화면](https://github.com/torijune/Recipe_Generator/blob/main/Setup/%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%A7%E1%86%A8.png)
 
 - RGRG 웹사이트 생성된 텍스트 음성 변환 화면 - 앞서 생성된 텍스트를 원하는 언어로 음성 변환, 원하는 언어 및 음성 속도 선택 후 "Generate Audio" 버튼 클릭
-> ![번역 화면](Setup/TTS.png)
+![번역 화면](Setup/TTS.png)
 
 ## 프로젝트 구조
 ```
