@@ -36,6 +36,7 @@
 │   └── 
 ├── README.md               
 ├── Setup
+│   ├── RGRG_test.ipynb
 │   ├── one_recipe
 │   │   ├── create_prompt.ipynb
 │   │   ├── merge_recipes.ipynb
@@ -57,3 +58,8 @@
     └── requirements.txt   
     
 ```
+<br>
+<br>
+---
+
+> `Project Owner : Torijune`
