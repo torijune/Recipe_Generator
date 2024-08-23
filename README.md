@@ -3,6 +3,11 @@
 ## 프로젝트 개요   
 본 프로젝트는 LLM을 활용하여 RAG를 구현하여 레시피 생성 기능, GoogleAPI를 활용하여 Translate, TTS를 구현하여 웹사이트 베포를 하는 프로젝트입니다.
 
+# Deployment Using Streamlit
+- Reciep Generator with RAG - RGRG
+> ![스크린샷 2023-12-05 오후 4 24 24](https://github.com/sparkerhoney/Congress-Competition/assets/108461006/6ba7d0c4-35a4-4f69-8593-8299902a39e7)
+
+
 ## 프로젝트 구조
 ```
 .
